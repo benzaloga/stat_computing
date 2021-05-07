@@ -27,7 +27,7 @@ rem
 
 new.dataFrame <- dataFrame[c(1, 4, 5),]
 barplot(new.dataFrame$salary, names.arg = new.dataFrame$name)
-pie(c(max(dataFrame$salary), min(dataFrame$salary), median(dataFrame$salary)), labels = dataFrame$name, main = 'Salary Comparison Among Co-Workers')
+pie(c(max(dataFrame$salary), min(dataFrame$salary), median(dataFrame$salary)), labels = c('Highest Salary','Lowest Salary','Median Salary'), main = 'Salary Comparison Among Co-Workers')
 ```
 #Question 3: Function 1, Welcome / Start
 ```{r}
